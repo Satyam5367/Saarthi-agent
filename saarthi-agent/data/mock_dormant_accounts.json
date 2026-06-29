@@ -1,0 +1,90 @@
+[
+  {
+    "account_id": "PMJDY-UP-00231",
+    "state": "Uttar Pradesh",
+    "preferred_language_hint": "Hindi",
+    "dormancy_days": 920,
+    "last_dbt_credit_unclaimed": true,
+    "rupay_status": "issued_unused",
+    "upi_status": "not_registered",
+    "age_bracket": "46-60",
+    "phone_reachable": true
+  },
+  {
+    "account_id": "PMJDY-BR-00874",
+    "state": "Bihar",
+    "preferred_language_hint": "Hindi",
+    "dormancy_days": 1100,
+    "last_dbt_credit_unclaimed": true,
+    "rupay_status": "none",
+    "upi_status": "not_registered",
+    "age_bracket": "31-45",
+    "phone_reachable": true
+  },
+  {
+    "account_id": "PMJDY-WB-00456",
+    "state": "West Bengal",
+    "preferred_language_hint": "Bengali",
+    "dormancy_days": 760,
+    "last_dbt_credit_unclaimed": false,
+    "rupay_status": "issued_unused",
+    "upi_status": "not_registered",
+    "age_bracket": "18-30",
+    "phone_reachable": true
+  },
+  {
+    "account_id": "PMJDY-KA-00129",
+    "state": "Karnataka",
+    "preferred_language_hint": "Kannada",
+    "dormancy_days": 1400,
+    "last_dbt_credit_unclaimed": true,
+    "rupay_status": "none",
+    "upi_status": "not_registered",
+    "age_bracket": "60+",
+    "phone_reachable": false
+  },
+  {
+    "account_id": "PMJDY-TN-00390",
+    "state": "Tamil Nadu",
+    "preferred_language_hint": "Tamil",
+    "dormancy_days": 800,
+    "last_dbt_credit_unclaimed": false,
+    "rupay_status": "issued_unused",
+    "upi_status": "not_registered",
+    "age_bracket": "31-45",
+    "phone_reachable": true
+  },
+  {
+    "account_id": "PMJDY-MP-00622",
+    "state": "Madhya Pradesh",
+    "preferred_language_hint": "Hindi",
+    "dormancy_days": 950,
+    "last_dbt_credit_unclaimed": true,
+    "rupay_status": "issued_unused",
+    "upi_status": "not_registered",
+    "age_bracket": "18-30",
+    "phone_reachable": true
+  },
+  {
+    "account_id": "PMJDY-AP-00715",
+    "state": "Andhra Pradesh",
+    "preferred_language_hint": "Telugu",
+    "dormancy_days": 1250,
+    "last_dbt_credit_unclaimed": true,
+    "rupay_status": "none",
+    "upi_status": "not_registered",
+    "age_bracket": "46-60",
+    "phone_reachable": true
+  },
+  {
+    "account_id": "PMJDY-UP-00988",
+    "state": "Uttar Pradesh",
+    "preferred_language_hint": "Hindi",
+    "dormancy_days": 730,
+    "last_dbt_credit_unclaimed": false,
+    "rupay_status": "issued_unused",
+    "upi_status": "not_registered",
+    "age_bracket": "31-45",
+    "phone_reachable": true
+  }
+]

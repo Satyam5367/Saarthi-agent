@@ -1,0 +1,3 @@
+# Python 3.10+ required
+anthropic>=0.40.0
+pytest>=8.0.0

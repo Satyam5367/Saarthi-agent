@@ -1,0 +1,127 @@
+$ python -m agent.pipeline --limit 8 --seed 7
+
+╔══════════════════════════════════════════════════════════════╗
+║          SAARTHI — Dormant Account Reactivation Agent        ║
+╚══════════════════════════════════════════════════════════════╝
+  Accounts loaded : 8
+  Success-rate clusters from prior runs : 0
+
+  ▶  PMJDY-AP-00715  (Andhra Pradesh)
+     Language : Telugu   Action : re_kyc   Priority : 1.0
+     Rationale : rule_based_fallback
+
+     [agent, Telugu] Namaskaram, mee bank nunchi account update gurinchi call chesttunnamu.
+     [customer] Yeh sab mujhe nahi pata. Koi aa sakta hai ghar? (I don't know all this. Can someone come home?)
+     [agent] Absolutely — I am escalating to a Business Correspondent who will arrange a doorstep visit.
+
+     Outcome : ⚑  needs human
+     ↳ ESCALATED → human BC/RM  (reason: regulated_action)
+  ──────────────────────────────────────────────────────────────
+
+  ▶  PMJDY-BR-00874  (Bihar)
+     Language : Hindi   Action : re_kyc   Priority : 0.933
+     Rationale : rule_based_fallback
+
+     [agent, Hindi] Namaste, aapke bank ki taraf se account update ke baare mein call kar rahe hain.
+     [customer] Yeh sab mujhe nahi pata. Koi aa sakta hai ghar? (I don't know all this. Can someone come home?)
+     [agent] Absolutely — I am escalating to a Business Correspondent who will arrange a doorstep visit.
+
+     Outcome : ⚑  needs human
+     ↳ ESCALATED → human BC/RM  (reason: regulated_action)
+  ──────────────────────────────────────────────────────────────
+
+  ▶  PMJDY-MP-00622  (Madhya Pradesh)
+     Language : Hindi   Action : rupay_activation   Priority : 0.833
+     Rationale : rule_based_fallback
+
+     [agent, Hindi] Namaste, aapke bank ki taraf se ek card suvidha ke baare mein call kar rahe hain.
+     [customer] Haan, kya karna hoga? (Yes, what do I need to do?)
+     [agent] Please visit your nearest SBI ATM and enter your card PIN to activate it. I can also send an SMS with the steps.
+     [customer] ATM pe jaana padega kya? (Do I need to go to ATM?)
+     [agent] Yes, just once — it takes under 2 minutes. Shall I send the nearest ATM address to your number?
+     [customer] Theek hai, bhej dijiye. (Okay, please send it.)
+     [system] RuPay activation steps sent via SMS. Call completed.
+
+     Outcome : ✔  completed
+  ──────────────────────────────────────────────────────────────
+
+  ▶  PMJDY-UP-00231  (Uttar Pradesh)
+     Language : Hindi   Action : rupay_activation   Priority : 0.813
+     Rationale : rule_based_fallback
+
+     [agent, Hindi] Namaste, aapke bank ki taraf se ek card suvidha ke baare mein call kar rahe hain.
+     [customer] Haan, kya karna hoga? (Yes, what do I need to do?)
+     [agent] Please visit your nearest SBI ATM and enter your card PIN to activate it. I can also send an SMS with the steps.
+     [customer] ATM pe jaana padega kya? (Do I need to go to ATM?)
+     [agent] Yes, just once — it takes under 2 minutes. Shall I send the nearest ATM address to your number?
+     [customer] Theek hai, bhej dijiye. (Okay, please send it.)
+     [system] RuPay activation steps sent via SMS. Call completed.
+
+     Outcome : ✔  completed
+  ──────────────────────────────────────────────────────────────
+
+  ▶  PMJDY-TN-00390  (Tamil Nadu)
+     Language : Tamil   Action : rupay_activation   Priority : 0.533
+     Rationale : rule_based_fallback
+
+     [agent, Tamil] Vanakkam, ungal bank ilirundhu ungal card payan pattri azhaikiren.
+     [customer] Haan, kya karna hoga? (Yes, what do I need to do?)
+     [agent] Please visit your nearest SBI ATM and enter your card PIN to activate it. I can also send an SMS with the steps.
+     [customer] ATM pe jaana padega kya? (Do I need to go to ATM?)
+     [agent] Yes, just once — it takes under 2 minutes. Shall I send the nearest ATM address to your number?
+     [customer] Theek hai, bhej dijiye. (Okay, please send it.)
+     [system] RuPay activation steps sent via SMS. Call completed.
+
+     Outcome : ✔  completed
+  ──────────────────────────────────────────────────────────────
+
+  ▶  PMJDY-WB-00456  (West Bengal)
+     Language : Bengali   Action : rupay_activation   Priority : 0.507
+     Rationale : rule_based_fallback
+
+     [agent, Bengali] Namaskar, apnar bank theke apnar card suvidhā somporkhe call korchi.
+     [customer] Haan, kya karna hoga? (Yes, what do I need to do?)
+     [agent] Please visit your nearest SBI ATM and enter your card PIN to activate it. I can also send an SMS with the steps.
+     [customer] ATM pe jaana padega kya? (Do I need to go to ATM?)
+     [agent] Yes, just once — it takes under 2 minutes. Shall I send the nearest ATM address to your number?
+     [customer] Theek hai, bhej dijiye. (Okay, please send it.)
+     [system] RuPay activation steps sent via SMS. Call completed.
+
+     Outcome : ✔  completed
+  ──────────────────────────────────────────────────────────────
+
+  ▶  PMJDY-KA-00129  (Karnataka)
+     Language : Kannada   Action : re_kyc   Priority : 0.5
+     Rationale : rule_based_fallback
+
+     [agent, Kannada] Namaskara, nima account update kurichu bank ninda call maaduttiddeve.
+     [customer] Yeh sab mujhe nahi pata. Koi aa sakta hai ghar? (I don't know all this. Can someone come home?)
+     [agent] Absolutely — I am escalating to a Business Correspondent who will arrange a doorstep visit.
+
+     Outcome : ⚑  needs human
+     ↳ ESCALATED → human BC/RM  (reason: regulated_action)
+  ──────────────────────────────────────────────────────────────
+
+  ▶  PMJDY-UP-00988  (Uttar Pradesh)
+     Language : Hindi   Action : rupay_activation   Priority : 0.487
+     Rationale : rule_based_fallback
+
+     [agent, Hindi] Namaste, aapke bank ki taraf se ek card suvidha ke baare mein call kar rahe hain.
+     [customer] Haan, kya karna hoga? (Yes, what do I need to do?)
+     [agent] Please visit your nearest SBI ATM and enter your card PIN to activate it. I can also send an SMS with the steps.
+     [customer] ATM pe jaana padega kya? (Do I need to go to ATM?)
+     [agent] Yes, just once — it takes under 2 minutes. Shall I send the nearest ATM address to your number?
+     [customer] Theek hai, bhej dijiye. (Okay, please send it.)
+     [system] RuPay activation steps sent via SMS. Call completed.
+
+     Outcome : ✔  completed
+  ──────────────────────────────────────────────────────────────
+
+  SUMMARY
+  ✔  Completed    : 5
+  ⚑  Needs human : 3  (3 escalated to BC/RM)
+  ✘  Declined     : 0
+  ○  No answer    : 0
+
+  Outcomes appended → data/outcomes.jsonl
+
